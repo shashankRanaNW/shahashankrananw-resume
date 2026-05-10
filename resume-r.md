@@ -23,10 +23,12 @@ _Undergrad Researcher, BITS Goa (Project FLOps)_ | _03/2024 – 01/2025_
 
 ## Publications
 
-- **[Understanding Infrastructure Drift in Federated Learning Systems](https://www.computer.org/csdl/proceedings-article/hipcw/2024/091100a171/24MFmedlM3u)** | _HiPC'24_
-- **Shashank Rana**, Vimarsh Shah, Aishwarya Jaishankar, Arnab K Paul
-- **[Hardware Analysis for Low-Cost Wearable ECG Monitoring and Analysis System](https://link.springer.com/chapter/10.1007/978-3-031-95571-6_7)** | _ICWH 24_
-- **Shashank Rana**, Aditya Handur-Kulkarni, Akhil Binu, Shubhangi Gawali, Neena Goveas
+*   **[Understanding Infrastructure Drift in Federated Learning Systems](https://www.computer.org/csdl/proceedings-article/hipcw/2024/091100a171/24MFmedlM3u)** | _HiPC'24_
+
+    **Shashank Rana**, Vimarsh Shah, Aishwarya Jaishankar, Arnab K Paul
+* **[Hardware Analysis for Low-Cost Wearable ECG Monitoring and Analysis System](https://link.springer.com/chapter/10.1007/978-3-031-95571-6_7)** | _ICWH 24_
+
+    **Shashank Rana**, Aditya Handur-Kulkarni, Akhil Binu, Shubhangi Gawali, Neena Goveas
 
 ## Work Experience
 
