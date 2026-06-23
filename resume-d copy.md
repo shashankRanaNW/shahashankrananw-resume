@@ -1,14 +1,15 @@
 <style>
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 11pt;
-    line-height: 1.5;
+    font-size: 9.5pt; /* Reduced from 11pt */
+    line-height: 1.4;  /* Slightly tighter spacing */
     color: #333;
 }
-h1 { text-align: center; font-size: 24pt; margin-bottom: 5px; color: #111; }
-h2 { border-bottom: 1px solid #ccc; padding-bottom: 2px; margin-top: 20px; color: #222; }
-h3 { margin-bottom: 2px; }
-ul { margin-top: 5px; }
+h1 { text-align: center; font-size: 20pt; margin-bottom: 2px; color: #111; }
+h2 { border-bottom: 1px solid #ccc; padding-bottom: 2px; margin-top: 14px; font-size: 13pt; color: #222; }
+h3 { margin-bottom: 1px; font-size: 11pt; }
+ul { margin-top: 3px; padding-left: 20px; }
+li { margin-bottom: 2px; }
 @media print {
     h2, h3 { page-break-after: avoid; }
     .project-block, .job-block { page-break-inside: avoid; }
@@ -20,37 +21,14 @@ ul { margin-top: 5px; }
 
 ## About Me
 I am Shashank. Systems, efficiency and scale excite me, in that order.
-- Software Engineer with operational expertise in high-throughput, low-latency distributed systems; writing performant and well factored code and having delivered features with ownership.
-- Passionate about making systems go faster with less, and making systems fit perfectly with each other.
-- Currently, I am working at **Google Search** in the [RankEmbed](https://www.justice.gov/atr/media/1398866/dl), where I am helping RankEmbed scale through growing pains as we strive to serve both the growing AI traffic and an ever-larger share of search traffic.
-- I am always looking to work at low-level systems engineering problems where I can squeeze the last bit of performance out of hardware.
+
+Currently, I am working at **Google Search** in the [RankEmbed](https://www.justice.gov/atr/media/1398866/dl), where I am helping RankEmbed scale through growing pains as we strive to serve both the growing AI traffic and an ever-larger share of search traffic.
 
 ## Academic Details
 
 ### BITS Pilani Goa Campus (2025)
 - B.E. (Hons.) Computer Science
 - **CGPA:** **9.17**/10.0
-
-## Research Experience
-
-### Data, Systems & High Performance Computing (DaSH) Lab
-
-_Undergrad Researcher, BITS Goa (Project FLOps)_ | _03/2024 – 01/2025_
-
-- Investigated different InfraDrift contributors in FL, in collaboration with [Prof. Arnab Paul](https://arnab.dashlab.in).
-- Proposed strategies to counter them in [our publication](https://www.computer.org/csdl/proceedings-article/hipcw/2024/091100a171/24MFmedlM3u).
-- Designed and managed a heterogeneous FL testbed consisting of 13 nodes.
-- Nodes ranged in compute from Nvidia Orin NX to Raspi 400.
-- Designed and orchestrated experiments simulating real FL challenges: Data skew, straggler clients, and network heterogeneity.
-
-## Publications
-
-*   **[Understanding Infrastructure Drift in Federated Learning Systems](https://www.computer.org/csdl/proceedings-article/hipcw/2024/091100a171/24MFmedlM3u)** | _HiPC'24_
-
-    **Shashank Rana**, Vimarsh Shah, Aishwarya Jaishankar, Arnab K Paul
-* **[Hardware Analysis for Low-Cost Wearable ECG Monitoring and Analysis System](https://link.springer.com/chapter/10.1007/978-3-031-95571-6_7)** | _ICWH 24_
-
-    **Shashank Rana**, Aditya Handur-Kulkarni, Akhil Binu, Shubhangi Gawali, Neena Goveas
 
 ## Work Experience
 
@@ -91,6 +69,18 @@ Participated in a 10-week program focusing on ML Engineering projects.
 
 Intro to DB systems (**CMU DB** - on YT), Data Storage Technology and Networks, Computer Networks, Operating Systems, Database Systems, Compilers
 
+## Research Experience
+
+### Data, Systems & High Performance Computing (DaSH) Lab
+
+_Undergrad Researcher, BITS Goa (Project FLOps)_ | _03/2024 – 01/2025_
+
+- Investigated different InfraDrift contributors in FL, in collaboration with [Prof. Arnab Paul](https://arnab.dashlab.in).
+- Proposed strategies to counter them in [our publication](https://www.computer.org/csdl/proceedings-article/hipcw/2024/091100a171/24MFmedlM3u).
+- Designed and managed a heterogeneous FL testbed consisting of 13 nodes.
+- Nodes ranged in compute from Nvidia Orin NX to Raspi 400.
+- Designed and orchestrated experiments simulating real FL challenges: Data skew, straggler clients, and network heterogeneity.
+
 ## Technical Proficiency
 
 * **Google Specific:** pprof, Hg/git, anti-gravity SDK (power-user), automon (graphana)
@@ -111,28 +101,3 @@ Intro to DB systems (**CMU DB** - on YT), Data Storage Technology and Networks, 
 
 ### Database Systems
 _07/2024 – 11/2024_
-
-### Software Dev for Android
-
-_01/2024 – 06/2024_
-
-- Secured academic integrity by setting up a pipeline to run MOSS for labs.
-
-
-## Projects
-
-### HRMAA: Heart Health Monitoring and Analysis
-
-_08/2022 – 05/2024_
-
-- Developed a Bluetooth and TCP/IP based communication module for portable ECG sensors, reducing packet loss from **15% to <1%** and achieving a **stable 10ms real-time latency**.
-- Was the hardware lead, developed a lean and portable prototype. Analysis was [published here](https://www.computer.org/csdl/proceedings-article/hipcw/2024/091100a171/24MFmedlM3u).
-
-### BITS TAlloc: The TA allocation system of BITS Goa
-
-_08/2024 – 05/2025_
-
-- **Architected automated allocation systems:** Developed a customized Gale-Shapley **Stable Marriage algorithm** to automate TA and Faculty assignments, reducing manual processing time from **one week to 6 seconds.**
-- Successfully allocated **173 TAs to 30 courses** and **29 faculty members to 27 courses** with a **98.2%** success rate, ensuring **87.3%** of students received their top preference.
-- **Engineered end-to-end data pipelines** for ingestion and interfaced directly with the university’s SQL database to handle complex edge cases and real-time record synchronization.
-
