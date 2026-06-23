@@ -1,3 +1,20 @@
+<style>
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #333;
+}
+h1 { text-align: center; font-size: 24pt; margin-bottom: 5px; color: #111; }
+h2 { border-bottom: 1px solid #ccc; padding-bottom: 2px; margin-top: 20px; color: #222; }
+h3 { margin-bottom: 2px; }
+ul { margin-top: 5px; }
+@media print {
+    h2, h3 { page-break-after: avoid; }
+    .project-block, .job-block { page-break-inside: avoid; }
+}
+</style>
+
 # Shashank Rana
 [shashankrana108@outlook.com](mailto:shashankrana108@outlook.com) | [linkedin](linkedin.com/in/shashank-rana-nw) | 9811827287 | Bengaluru, India
 
@@ -13,7 +30,7 @@ I am Shashank. Systems, efficiency and scale excite me, in that order.
 
 ### BITS Pilani Goa Campus (2025)
 - B.E. (Hons.) Computer Science
-- **CGPA:** 9.17/10.0
+- **CGPA:** **9.17**/10.0
 
 ## Research Experience
 
